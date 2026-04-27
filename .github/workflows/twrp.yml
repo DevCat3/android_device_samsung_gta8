@@ -22,7 +22,7 @@ on:
       DEVICE_TREE:
         description: 'Device Tree URL'
         required: true
-        default: 'https://github.com/DevCatowa/android_device_samsung_gta4lve'
+        default: 'https://github.com/DevCatowa/android_device_samsung_gta8'
       DEVICE_TREE_BRANCH:
         description: 'Device Tree Branch'
         required: true
@@ -30,11 +30,11 @@ on:
       DEVICE_PATH:
         description: 'Device Path'
         required: true
-        default: 'device/samsung/gta4lve'
+        default: 'device/samsung/gta8'
       DEVICE_NAME:
         description: 'Device Codename'
         required: true
-        default: 'gta4lve'
+        default: 'gta8'
       BUILD_TARGET:
         description: 'Build Target Type'
         required: true
